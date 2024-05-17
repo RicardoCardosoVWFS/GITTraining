@@ -1,0 +1,113 @@
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.cache
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Oo]utput/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio 2015
+.vs/
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
+
+# Visual Studio Code
+.vscode/
+!.vscode/core.code-snippets
+
+# Angular #
+
+# compiled output
+dist/
+/tmp
+/out-tsc
+# Only exists if Bazel was run
+/bazel-out
+__ngcc_entry_points__.json
+
+# dependencies
+node_modules/
+
+# profiling files
+chrome-profiler-events.json
+speed-measure-plugin.json
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.binlog
+.history/*
+
+# misc
+/.angular/cache
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+*TESTS-Chrome_Headless*.xml
+
+# System Files
+.DS_Store
+Thumbs.db
+
+wwwroot/
+Logs/
+
+# File keeps changing when switching between "Local IIS, "IIS Express"
+#web.config
+
+# Upload Files Folder
+UploadedFiles/
+#*.gen.cs
+#Generated/
+Migrations/
+smtp.log
+
+# cypress-ntlm-auth 
+debug.log
+.http-mitm-proxy
+
+#Scheduler Logs File
+logger.txt
+
+#Generated binaries
+CustomDependentAssemblies/
+Output_Tmp/
+Scripting_Output/
+OutputDlls/
+
+#Specific files
+/CopyDependentAssemblies.bat
+/Reports/SD_VWB_Finance/Defaults - Backup.rdl
